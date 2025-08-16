@@ -15,7 +15,7 @@ jobs:
 
       - name: Setup Environment 🔧⚙️
         run: |
-          curl -L -O https://raw.githubusercontent.com/redmi-mt6765-dev/kernel-build-actions/refs/heads/main/setup.sh
+          curl -L -O https://raw.githubusercontent.com/redmi-mt6765-dev/kernel-build-actions/refs/heads/dandelion/setup.sh
           bash setup.sh
 
       - name: Setup python2 🐍
@@ -25,5 +25,5 @@ jobs:
 
       - name: Run Build Script 🚀💣
         run: |
-          curl -L -O https://raw.githubusercontent.com/redmi-mt6765-dev/kernel-build-actions/refs/heads/main/build.sh
+          curl -L -O https://raw.githubusercontent.com/redmi-mt6765-dev/kernel-build-actions/refs/heads/dandelion/build.sh
           bash build.sh

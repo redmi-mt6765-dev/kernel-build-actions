@@ -11,7 +11,7 @@ set -eo pipefail
 # Grouping all configuration variables at the top makes them easy to manage.
 
 # Kernel Source Configuration
-readonly KERNEL_SOURCE_URL="https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git"
+readonly KERNEL_SOURCE_URL="https://github.com/redmi-mt6765-dev/android_kernel_dandelion.git"
 readonly KERNEL_BRANCH="dandelion-q-oss"
 readonly KERNEL_DIR="android-kernel"
 
