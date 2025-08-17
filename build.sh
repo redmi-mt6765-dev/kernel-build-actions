@@ -80,6 +80,9 @@ build_kernel() {
   # Create the output directory.
   mkdir -p "$KERNEL_OUT_DIR"
 
+  # Clean up
+  make clean && make mrproper
+
   # Configure the kernel build.
   make O="$KERNEL_OUT_DIR" ARCH="$ARCH" SUBARCH="$ARCH" "$DEFCONFIG"
 
