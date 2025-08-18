@@ -44,6 +44,11 @@ install_dependencies() {
     xsltproc
     zip
     zlib1g-dev
+    wget
+    ccache
+    bc
+    autoconf
+    automake
   )
   
   # Install all packages in a single command.
